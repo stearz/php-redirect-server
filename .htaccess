@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^$ /index.php
+
+RewriteRule ^*.inc.php$ - [F,L]
+RewriteRule ^.gitignore$ - [F,L]
+RewriteRule ^.htaccess$ - [F,L]
+RewriteRule ^CHANGELOG.md$ - [F,L]
+RewriteRule ^LICENSE$ - [F,L]
+RewriteRule ^README.md$ - [F,L]
+RewriteRule ^VERSION$ - [F,L]
